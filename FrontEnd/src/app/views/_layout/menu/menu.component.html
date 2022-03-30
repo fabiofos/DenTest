@@ -1,0 +1,26 @@
+<mat-sidenav-container>
+    <mat-sidenav class="side-nav mat-elevation-z8" mode="side" [opened]="isShowing" fixedInViewport="true"
+        fixedTopGap="64">
+        <mat-nav-list class="nav-list ">
+            <a mat-list-item routerLink="/dashboard" [routerLinkActive]="['active']">
+                <i class="material-icons" routerLinkActive="active-link">home</i> Main Panel
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="background-white">
+        <router-outlet>
+                <button mat-button class="button-style" (click)="toggleSidenav()">
+                    <div [hidden]="!isShowing">
+                        <span class="material-icons arrow-color">
+                            keyboard_arrow_left
+                        </span>
+                    </div>
+                    <div [hidden]="isShowing">
+                        <span class="material-icons arrow-color" >
+                            keyboard_arrow_right
+                        </span>
+                    </div>
+                </button>
+        </router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

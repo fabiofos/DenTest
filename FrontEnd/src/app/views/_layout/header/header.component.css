@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #449ce4;
+    justify-content: space-between;
+  }
+  
+  .header a {
+    display: flex;  
+    align-items: center;
+    text-decoration: none;
+    color: #515585;
+    padding-right: 68px;
+  }
+  
+  .header .logo {
+    max-height: 60px;
+  }
+
+  .header .profile {
+    max-height: 60px;
+    width: 45px;
+  }
+  
+  
+  .header .title-group a,i {
+    color: azure;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  
+  .text-page {
+      color: azure;
+      font-size: 28px;
+      margin-left: 20px;
+      font-family: 'Oswald', sans-serif;
+  }
+
+  .div-information{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+  }
+
+  .div-icon{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+  }
+
+  ::ng-deep .customize {
+    background-color:  #449ce4!important;
+}
+
+.div-user{
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  padding-right: 60px;
+}
+
+.div-screen-name{
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+
+}
+
+.text-user{
+  color: azure;
+  font-style: italic;
+    text-decoration: underline;
+}

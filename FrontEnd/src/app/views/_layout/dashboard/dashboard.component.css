@@ -1,0 +1,20 @@
+.container{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+  }
+  
+  .caption-table{
+    color: #4c0ef5;
+    font-size: medium;
+    font-weight: 500;
+  }
+
+  .container-category{
+    margin-left: 62px;
+    margin-right: 50px;
+  }
+
+  .popup-configuration{
+    overflow-y:  scroll;
+  }
