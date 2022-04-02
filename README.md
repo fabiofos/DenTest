@@ -36,7 +36,7 @@ Entity framework In Memory tests
 
 Test Server
 
-[Go to Test Report](https://support.west-wind.com)
+[Go to Test Report](https://github.com/fabiofos/DenTest/blob/master/BackEnd/VendorMachineTest/VendorMachineTest.Tests/CoverageReport/index.html)
 
 Steps to Run
 ------------
