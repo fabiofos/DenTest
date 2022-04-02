@@ -1,3 +1,3 @@
 dotnet test --collect:"XPlat Code Coverage"
 
-reportgenerator -reports:"C:\Projetos Fabio\DenTest\BackEnd\VendorMachineTest\VendorMachineTest.Tests\TestResults\3c98bde5-4c70-4eb5-a09d-06df0206f393\coverage.cobertura.xml" -targetdir:"C:\Projetos Fabio\DenTest\BackEnd\VendorMachineTest\VendorMachineTest.Tests\CoverageReport" -reporttypes:Html
+reportgenerator -reports:"C:\Projetos Fabio\DenTest\BackEnd\VendorMachineTest\VendorMachineTest.Tests\TestResults\24ca1748-d240-477b-86e7-d087100d2ca7\coverage.cobertura.xml" -targetdir:"C:\Projetos Fabio\DenTest\BackEnd\VendorMachineTest\VendorMachineTest.Tests\CoverageReport" -reporttypes:Html

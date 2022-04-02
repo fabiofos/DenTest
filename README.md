@@ -20,8 +20,7 @@ MediatR Setup
 Fluent Assert Validation Pattern
 
 Back End Notes:
-1 - Normally I do like to create another layer called "AppService" in order to provide/manipulate informations for specific projects, In our case we have only the WebApi using the 
-others layers, that is why it was not necessary here;
+1 - Normally I do like to create another layer called "AppService", and pass to repository or service layer using that interface (SOLID). the purpose is to provide/manipulate informations for specific projects, but to keep the simplicity the mediator is connected straight to the repository layer;
 2 - Relationship between entities/tables Sales and Product should be N -> N, generating one new table ProductSales in the midle (keep it like this to simplify);
 3 - The database should have more 2 tables in order to controll the currencies (list of), and what currencies are accepeted in each machine (table currency_machine for example);
 4 - To make it simple I kept all the endpoint in the same controller (It requires basically all the services to be injected in the same controller wich is not good);
@@ -36,7 +35,9 @@ Entity framework In Memory tests
 
 Test Server
 
-[Go to Test Report](https://support.west-wind.com)
+[Go to Test Report](https://github.com/fabiofos/DenTest/blob/master/BackEnd/VendorMachineTest/VendorMachineTest.Tests/CoverageReport/index.html)
+
+![alt text](Coverage.jpg)
 
 Steps to Run
 ------------
@@ -57,7 +58,7 @@ Angular 11 - standard application (Only with bootstrap for simplicity)
 Reactive Forms
 
 Front End Notes:
-1 - For Simplicity the model classes were not reproduced in Angular Project (Thats why on the services layer the observables are dealing with "any" types);
+1 - For Simplicity the model classes were not reproduced (all of then) in Angular Project (Thats why on the services layer the observables are dealing with "any" types);
 
 
 Improvements (Suggestion)

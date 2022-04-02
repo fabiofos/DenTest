@@ -132,7 +132,7 @@ namespace VendorMachineTest.Tests
             var urlEndPoint = "UpdateMachine";
             var machine = new MachineViewModel
             {
-                Id = 0,
+                Id = 1,
                 MachineCurrencyId = 1,
                 MachineLanguageId = 1,
                 MaintenanceRequested = true,

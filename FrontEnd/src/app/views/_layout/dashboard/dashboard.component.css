@@ -1,20 +1,20 @@
-.container{
-    flex-direction: row;
-    justify-content: center;
-    align-items: center
-  }
-  
-  .caption-table{
-    color: #4c0ef5;
-    font-size: medium;
-    font-weight: 500;
-  }
+.button-size {
+  width: 150px;
+}
 
-  .container-category{
-    margin-left: 62px;
-    margin-right: 50px;
-  }
+.coin-style{
+  border-radius: 32px !important;
+  width: 66px;
+  background-color: lightgray;
+  border-color: gray;
+  font-weight: 400;
+}
 
-  .popup-configuration{
-    overflow-y:  scroll;
-  }
+.text-box-style{
+  min-width: 550px;
+  height: 80px;
+  border-style: ridge;
+  background-color: antiquewhite;
+  font-size: xx-large;
+  text-align: center;
+}

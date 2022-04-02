@@ -1,6 +1,4 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using VendorMachineTest.Application.Interfaces;
-using VendorMachineTest.Application.Services;
 using VendorMachineTest.Data;
 using VendorMachineTest.Data.Repository;
 using VendorMachineTest.Data.UOW;
@@ -15,7 +13,6 @@ namespace VendorMachineTest.DependencyInjection
         {
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped(typeof(IRepositoryBase<>), typeof(RepositoryBase<>));
-            services.AddScoped(typeof(IAppServiceBase<>), typeof(AppServiceBase<>));
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProductStockRepository, ProductStockRepository>();
             services.AddScoped<IMachineCurrencyRepository, MachineCurrencyRepository>();

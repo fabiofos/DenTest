@@ -14,7 +14,7 @@ namespace VendorMachineTest.Controllers
 {
     [ApiVersion("1")]
     [Route("vendorMachine/webapi/v{version:apiVersion}/[controller]/[action]")]
-    [ApiController] //it means we dont have to specify frombody anottations either check if model state is valid, .net does it auto.
+    [ApiController]
     public class MachineController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

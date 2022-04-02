@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace VendorMachineTest.Data.Migrations
 {
+    [ExcludeFromCodeCoverage]
     public partial class initial_bd : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)

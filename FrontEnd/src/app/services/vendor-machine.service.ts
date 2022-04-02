@@ -3,6 +3,10 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, throwError, of } from 'rxjs';  
 import { catchError, map } from 'rxjs/operators';  
 import { environment } from 'src/environments/environment';  
+import { Machine } from '../models/machine.model';
+import { MachineSlot } from '../models/machine-slots.model';
+import { Product } from '../models/product.model';
+import { Sale } from '../models/sales.model';
 
 @Injectable({
   providedIn: 'root'
@@ -19,19 +23,19 @@ export class VendorMachineService {
   
   constructor(private http: HttpClient) { }  
   
-  GetMachineData(): Observable<any> {  
-    return this.http.get<any>(`${this.machineUrl}/${this._getMachineEndpoint}/${this._machineId}`);  
+  GetMachineData(): Observable<Machine> {  
+    return this.http.get<Machine>(`${this.machineUrl}/${this._getMachineEndpoint}/${this._machineId}`);  
   }  
 
-  GetSlotsMachineData(machineId: number): Observable<any> {  
-    return this.http.get<any>(`${this.machineUrl}/${this._getSlotsMachineEndpoint}/${machineId}`);  
+  GetSlotsMachineData(machineId: number): Observable<MachineSlot[]> {  
+    return this.http.get<MachineSlot[]>(`${this.machineUrl}/${this._getSlotsMachineEndpoint}/${machineId}`);  
   }  
 
-  GetProductStock(productId: number): Observable<any> {  
-    return this.http.get<any>(`${this.machineUrl}/${this._getProductStockEndpoint}/${productId}`);  
+  GetProductStock(productId: number): Observable<Product> {  
+    return this.http.get<Product>(`${this.machineUrl}/${this._getProductStockEndpoint}/${productId}`);  
   }  
 
-  CreateSale(sale: any): Observable<any> {  
+  CreateSale(sale: Sale): Observable<any> {  
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' });  
     return this.http.post<any>(`${this.machineUrl}/${this._createSale}`, sale, { headers: headers })  
       .pipe(  
@@ -39,7 +43,7 @@ export class VendorMachineService {
       );  
   }  
 
-  UpdateMachine(machine: any): Observable<any> {  
+  UpdateMachine(machine: Machine): Observable<any> {  
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' });  
     return this.http.put<any>(`${this.machineUrl}/${this._updateMachine}`, machine, { headers: headers })  
       .pipe(  

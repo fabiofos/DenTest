@@ -24,7 +24,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\VendorMachineTest.Application\VendorMachineTest.Application.csproj" />
     <ProjectReference Include="..\VendorMachineTest.Data\VendorMachineTest.Data.csproj" />
     <ProjectReference Include="..\VendorMachineTest.Domain\VendorMachineTest.Domain.csproj" />
     <ProjectReference Include="..\VendorMachineTest\VendorMachineTest.csproj" />
