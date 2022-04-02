@@ -1,43 +1,7 @@
 <div class="container-category">
     <div>
-        <p class="caption-table">Available Products</p>
+        <p class="caption-table">Vendor Machind</p>
     </div>
     <div>
-        <dx-data-grid id="gridContainer" class="dx-theme-border-color" [dataSource]="gridDataSource"
-            [remoteOperations]="false" [allowColumnReordering]="true" [columnAutoWidth]="true" [showBorders]="true"
-            [twoWayBindingEnabled]="false" [showRowLines]="true"
-            (onRowInserted)="CreateProducts($event)" (onRowUpdated)="UpdateProducts($event)">
-
-            <dxo-paging [pageSize]="10"></dxo-paging>
-            <dxo-selection mode="single"></dxo-selection>
-            <dxo-filter-row [visible]="true"></dxo-filter-row>
-            <dxo-header-filter [visible]="true"></dxo-header-filter>
-            <dxo-scrolling columnRenderingMode="virtual"></dxo-scrolling>
-            <dxo-pager [showPageSizeSelector]="true" [allowedPageSizes]="[10, 25, 50, 100]"></dxo-pager>
-            <dxo-search-panel [visible]="true" [highlightCaseSensitive]="true"></dxo-search-panel>
-            <dxo-group-panel [visible]="false"></dxo-group-panel>
-            <dxo-grouping [autoExpandAll]="false"></dxo-grouping>
-
-            <dxi-column dataField="id" caption="Id" dataType="number" [allowEditing]="false" [visible]="false">
-            </dxi-column>
-            <dxi-column dataField="name" dataType="string">
-                <dxi-validation-rule type="required"></dxi-validation-rule>
-            </dxi-column>
-            <dxi-column dataField="description" dataType="string">
-                <dxi-validation-rule type="required"></dxi-validation-rule>
-            </dxi-column>
-            <dxi-column dataField="price" dataType="number">
-                <dxi-validation-rule type="required"></dxi-validation-rule>
-            </dxi-column>
-            <dxi-column dataField="quantity" dataType="number">
-                <dxi-validation-rule type="required"></dxi-validation-rule>
-            </dxi-column>
-            <dxi-column dataField="createdOn" [format]="{ type: 'dd/MM/yyyy'}" caption="Criado em" dataType="date"
-                [allowEditing]="false">
-            </dxi-column>
-            <dxo-editing mode="popup" [allowAdding]="true" [allowUpdating]="true" [useIcons]="true">
-                <dxo-popup title="Products" [showTitle]="true" [width]="700" [height]="525"></dxo-popup>
-            </dxo-editing>
-        </dx-data-grid>
     </div>
 </div>

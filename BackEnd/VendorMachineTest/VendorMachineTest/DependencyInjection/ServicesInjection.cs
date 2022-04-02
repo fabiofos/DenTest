@@ -22,6 +22,7 @@ namespace VendorMachineTest.DependencyInjection
             services.AddScoped<IMachineLanguageRepository, MachineLanguageRepository>();
             services.AddScoped<IMachineSlotsRepository, MachineSlotsRepository>();
             services.AddScoped<IMachineRepository, MachineRepository>();
+            services.AddScoped<ISalesRepository, SalesRepository>();
         }
     }
 }

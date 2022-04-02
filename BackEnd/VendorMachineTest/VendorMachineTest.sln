@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorMachineTest", "VendorMachineTest\VendorMachineTest.csproj", "{F115772C-4B33-47C5-A6A1-B2A010957CB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendorMachineTest", "VendorMachineTest\VendorMachineTest.csproj", "{F115772C-4B33-47C5-A6A1-B2A010957CB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorMachineTest.Domain", "VendorMachineTest.Domain\VendorMachineTest.Domain.csproj", "{568D9F8B-649A-4667-B725-21E2DFAFA41D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendorMachineTest.Domain", "VendorMachineTest.Domain\VendorMachineTest.Domain.csproj", "{568D9F8B-649A-4667-B725-21E2DFAFA41D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorMachineTest.Data", "VendorMachineTest.Data\VendorMachineTest.Data.csproj", "{29BDA063-4AB5-4392-A25B-A91C01943850}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendorMachineTest.Data", "VendorMachineTest.Data\VendorMachineTest.Data.csproj", "{29BDA063-4AB5-4392-A25B-A91C01943850}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorMachineTest.Application", "VendorMachineTest.Application\VendorMachineTest.Application.csproj", "{F1B2F1BB-7CAF-482C-8331-2A17865E6435}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendorMachineTest.Application", "VendorMachineTest.Application\VendorMachineTest.Application.csproj", "{F1B2F1BB-7CAF-482C-8331-2A17865E6435}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9CA37BDF-C52D-4995-9495-1D2176209070}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendorMachineTest.Tests", "VendorMachineTest.Tests\VendorMachineTest.Tests.csproj", "{652ADC58-B380-44D7-9D42-FB262A4DEE19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VendorMachineTest.Tests", "VendorMachineTest.Tests\VendorMachineTest.Tests.csproj", "{652ADC58-B380-44D7-9D42-FB262A4DEE19}"
 	ProjectSection(ProjectDependencies) = postProject
 		{F115772C-4B33-47C5-A6A1-B2A010957CB7} = {F115772C-4B33-47C5-A6A1-B2A010957CB7}
 		{29BDA063-4AB5-4392-A25B-A91C01943850} = {29BDA063-4AB5-4392-A25B-A91C01943850}

@@ -30,4 +30,9 @@
     <ProjectReference Include="..\VendorMachineTest\VendorMachineTest.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CoverageReport\" />
+    <Folder Include="TestResults\" />
+  </ItemGroup>
+
 </Project>

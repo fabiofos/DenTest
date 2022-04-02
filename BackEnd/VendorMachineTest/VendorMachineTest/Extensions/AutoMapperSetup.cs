@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using VendorMachineTest.Domain.Commands.Product;
 using VendorMachineTest.Domain.Entities;
 using VendorMachineTest.Domain.ViewModels;
 
@@ -16,8 +15,6 @@ namespace VendorMachineTest.Extensions
             CreateMap<MachineLanguage, MachineLanguageViewModel>().ReverseMap();
             CreateMap<MachineSlots, MachineSlotsViewModel>().ReverseMap();
             CreateMap<Sales, SalesViewModel>().ReverseMap();
-            CreateMap<CreateProductCommand, ProductViewModel>().ReverseMap();
-            CreateMap<UpdateProductCommand, ProductViewModel>().ReverseMap();
         }
     }
 }
