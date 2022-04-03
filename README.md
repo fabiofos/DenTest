@@ -1,2 +1,1 @@
-# DenTest
-Vendor Machine Test
+# Please Check the Master Branch
