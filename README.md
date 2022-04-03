@@ -49,13 +49,13 @@ Steps to Run
    - Update-DataBase
 3. Launch the API
 
-** Front End Project **
+**Front End Project**
 1. run the command npm install; 
 2. run the command npm install -g @angular/cli@11.2.2
 3. run the command ng serve
 
-DataBase Diagram 
-----------------
+SQL Server DataBase Diagram 
+---------------------------
 ![alt text](DbDiagram.jpg)
 
 Front End Technnologies
@@ -66,6 +66,8 @@ Reactive Forms
 
 Front End Notes:
 1 - For Simplicity the model classes were not reproduced (all of then) in Angular Project (Thats why on the services layer the observables are dealing with "any" types);
+
+![alt text](VendorMachineMainScreen.jpg)
 
 Missing Features
 ----------------
