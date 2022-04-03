@@ -15,12 +15,12 @@ namespace VendorMachineTest.Tests.Infrastructure
             AddLanguageMachine(sqlDbContext);
 
             AddMachine(sqlDbContext);
+            
+            AddProductStocks(sqlDbContext);
 
             AddProducts(sqlDbContext);
 
             AddSlotsMachine(sqlDbContext);
-
-            AddProductStocks(sqlDbContext);
 
             AddProductSales(sqlDbContext);
         }
@@ -157,7 +157,8 @@ namespace VendorMachineTest.Tests.Infrastructure
                         Name = "COLA",
                         Description = "Coca Cola",
                         Price = new decimal(1.00),
-                        CreatedOn = DateTime.UtcNow
+                        CreatedOn = DateTime.UtcNow,
+                        ProductStockId = 1
                     },
                     new Product
                     {
@@ -165,7 +166,8 @@ namespace VendorMachineTest.Tests.Infrastructure
                         Name = "Chips",
                         Description = "Chips",
                         Price = new decimal(0.50),
-                        CreatedOn = DateTime.UtcNow
+                        CreatedOn = DateTime.UtcNow,
+                        ProductStockId = 2
                     },
                     new Product
                     {
@@ -173,7 +175,8 @@ namespace VendorMachineTest.Tests.Infrastructure
                         Name = "Candy",
                         Description = "Candy",
                         Price = new decimal(1.65),
-                        CreatedOn = DateTime.UtcNow
+                        CreatedOn = DateTime.UtcNow,
+                        ProductStockId = 3
                     },
              };
 
@@ -194,22 +197,19 @@ namespace VendorMachineTest.Tests.Infrastructure
                     new ProductStock
                     {
                         Id = 1,
-                        ProductId = 1,
-                        Quantidade = 8,
+                        Quantity = 8,
                         CreatedOn = DateTime.UtcNow
                     },
                     new ProductStock
                     {
                         Id = 2,
-                        ProductId = 2,
-                        Quantidade = 12,
+                        Quantity = 12,
                         CreatedOn =  DateTime.UtcNow
                     },
                     new ProductStock
                     {
                         Id = 3,
-                        ProductId = 3,
-                        Quantidade = 0,
+                        Quantity = 0,
                         CreatedOn =  DateTime.UtcNow
                     },
                 };

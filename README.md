@@ -41,11 +41,18 @@ Test Server
 
 Steps to Run
 ------------
+
+**Back End Project**
+1. Configure the connection string on appSettings (Api Project)
+2. Run the migrations commands on Data Project
+   - Add-Migration bd
+   - Update-DataBase
+3. Launch the API
+
 ** Front End Project **
-* npm install; 
-* npm install -g @angular/cli@11.2.2
-
-
+1. run the command npm install; 
+2. run the command npm install -g @angular/cli@11.2.2
+3. run the command ng serve
 
 DataBase Diagram 
 ----------------
@@ -60,8 +67,13 @@ Reactive Forms
 Front End Notes:
 1 - For Simplicity the model classes were not reproduced (all of then) in Angular Project (Thats why on the services layer the observables are dealing with "any" types);
 
+Missing Features
+----------------
+1. Exact Coins strategy
+2. Switch Language
+3. Call Help (Api is ready to receive it, and the button is also on the UI, missing part is call it in angular service and indicate to the user)
 
 Improvements (Suggestion)
 -------------------------
-1 - Presuming the machine should be connected and not standalone, we should create some mechanism to update data in real time (SignalR for example);
-2 - Network trafic should be protected by HTTPS tunnel and another authorization such as JWT might have been configured in our API/UI.
+1. Presuming the machine should be connected and not standalone, we should create some mechanism to update data in real time (SignalR for example);
+2. Network trafic should be protected by HTTPS tunnel and another authorization such as JWT might have been configured in our API/UI.

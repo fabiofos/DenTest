@@ -58,6 +58,32 @@ namespace VendorMachineTest.Data.InitialData
             );
             #endregion MachineCurrency
 
+            #region ProductStock
+            modelBuilder.Entity<ProductStock>().HasData(
+                new List<ProductStock>
+                {
+                    new ProductStock
+                    {
+                        Id = 1,
+                        Quantity = 8,
+                        CreatedOn = createdOn
+                    },
+                    new ProductStock
+                    {
+                        Id = 2,
+                        Quantity = 12,
+                        CreatedOn = createdOn
+                    },
+                    new ProductStock
+                    {
+                        Id = 3,
+                        Quantity = 0,
+                        CreatedOn = createdOn
+                    },
+                }
+            );
+            #endregion ProductStock
+
             #region Product
             modelBuilder.Entity<Product>().HasData(
              new List<Product>
@@ -68,7 +94,8 @@ namespace VendorMachineTest.Data.InitialData
                         Name = "COLA",
                         Description = "Coca Cola",
                         Price = new decimal(1.00),
-                        CreatedOn = createdOn
+                        CreatedOn = createdOn,
+                        ProductStockId = 1
                     },
                     new Product
                     {
@@ -76,7 +103,8 @@ namespace VendorMachineTest.Data.InitialData
                         Name = "Chips",
                         Description = "Chips",
                         Price = new decimal(0.50),
-                        CreatedOn = createdOn
+                        CreatedOn = createdOn,
+                        ProductStockId = 2
                     },
                     new Product
                     {
@@ -84,40 +112,12 @@ namespace VendorMachineTest.Data.InitialData
                         Name = "Candy",
                         Description = "Candy",
                         Price = new decimal(1.65),
-                        CreatedOn = createdOn
+                        CreatedOn = createdOn,
+                        ProductStockId = 3
                     },
              }
             );
             #endregion Product
-
-            #region ProductStock
-            modelBuilder.Entity<ProductStock>().HasData(
-                new List<ProductStock>
-                {
-                    new ProductStock
-                    {
-                        Id = 1,
-                        ProductId = 1,
-                        Quantidade = 8,
-                        CreatedOn = createdOn
-                    },
-                    new ProductStock
-                    {
-                        Id = 2,
-                        ProductId = 2,
-                        Quantidade = 12,
-                        CreatedOn = createdOn
-                    },
-                    new ProductStock
-                    {
-                        Id = 3,
-                        ProductId = 3,
-                        Quantidade = 0,
-                        CreatedOn = createdOn
-                    },
-                }
-            );
-            #endregion ProductStock
 
             #region MachineSlots
             modelBuilder.Entity<MachineSlots>().HasData(

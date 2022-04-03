@@ -64,6 +64,28 @@ namespace VendorMachineTest.Tests
             client.Dispose();
         }
 
+       [Fact]
+        public async void Given_GetSalesByMachineId_When_Call_API_Then_Should_Return_Result()
+        {
+            //arrange
+            var client = testServer.CreateClient();
+            var urlEndPoint = "GetSales";
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+
+            //act
+            var response = await client.GetAsync($"{_urlController}{urlEndPoint}");
+            var sales = JsonSerializer.Deserialize<List<SalesViewModel>>(await response.Content.ReadAsStringAsync(), options);
+
+            //assert
+            Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+            Assert.NotNull(sales);
+            Assert.NotEmpty(sales);
+            client.Dispose();
+        }
+        
         [Fact]
         public async void Given_GetProductStockByProductId_When_Call_API_Then_Should_Return_Result()
         {

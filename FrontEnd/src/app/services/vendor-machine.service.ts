@@ -15,6 +15,7 @@ export class VendorMachineService {
 
   private machineUrl = environment.baseUrl + 'vendorMachine/webapi/v1/Machine';  
   private _getMachineEndpoint = 'GetMachineById';  
+  private _getSales = 'GetSales';  
   private _getSlotsMachineEndpoint = 'GetSlotsMachineById';  
   private _getProductStockEndpoint = 'GetProductStockByProductId';  
   private _createSale = 'CreateSale';  
@@ -31,11 +32,15 @@ export class VendorMachineService {
     return this.http.get<MachineSlot[]>(`${this.machineUrl}/${this._getSlotsMachineEndpoint}/${machineId}`);  
   }  
 
+  GetSales(): Observable<Sale[]> {  
+    return this.http.get<Sale[]>(`${this.machineUrl}/${this._getSales}`);  
+  }  
+
   GetProductStock(productId: number): Observable<Product> {  
     return this.http.get<Product>(`${this.machineUrl}/${this._getProductStockEndpoint}/${productId}`);  
   }  
 
-  CreateSale(sale: Sale): Observable<any> {  
+  CreateSale(sale: any): Observable<any> {  
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' });  
     return this.http.post<any>(`${this.machineUrl}/${this._createSale}`, sale, { headers: headers })  
       .pipe(  

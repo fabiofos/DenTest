@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.7556" branch-rate="0.409" version="1.9" timestamp="1648916341" lines-covered="337" lines-valid="446" branches-covered="9" branches-valid="22">
+<coverage line-rate="0.7835" branch-rate="0.4583" version="1.9" timestamp="1648979888" lines-covered="362" lines-valid="462" branches-covered="11" branches-valid="24">
   <sources>
     <source>C:\Projetos Fabio\DenTest\BackEnd\VendorMachineTest\</source>
   </sources>
   <packages>
-    <package name="VendorMachineTest.Data" line-rate="0.5963" branch-rate="0.41659999999999997" complexity="40">
+    <package name="VendorMachineTest.Data" line-rate="0.6788" branch-rate="0.41659999999999997" complexity="40">
       <classes>
         <class name="VendorMachineTest.Data.RepositoryBase`1" filename="VendorMachineTest.Data\Repository\RepositoryBase.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name=".ctor" signature="(VendorMachineTest.Data.Context.VendorMachineContext)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="7" branch="False" />
-                <line number="20" hits="7" branch="False" />
-                <line number="21" hits="7" branch="False" />
-                <line number="22" hits="7" branch="False" />
-                <line number="23" hits="7" branch="False" />
+                <line number="19" hits="12" branch="False" />
+                <line number="20" hits="12" branch="False" />
+                <line number="21" hits="12" branch="False" />
+                <line number="22" hits="12" branch="False" />
+                <line number="23" hits="12" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="19" hits="7" branch="False" />
-            <line number="20" hits="7" branch="False" />
-            <line number="21" hits="7" branch="False" />
-            <line number="22" hits="7" branch="False" />
-            <line number="23" hits="7" branch="False" />
+            <line number="19" hits="12" branch="False" />
+            <line number="20" hits="12" branch="False" />
+            <line number="21" hits="12" branch="False" />
+            <line number="22" hits="12" branch="False" />
+            <line number="23" hits="12" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Data.RepositoryBase`1/&lt;Add&gt;d__3" filename="VendorMachineTest.Data\Repository\RepositoryBase.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -44,68 +44,68 @@
             <line number="29" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="VendorMachineTest.Data.RepositoryBase`1/&lt;GetAll&gt;d__6" filename="VendorMachineTest.Data\Repository\RepositoryBase.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="VendorMachineTest.Data.RepositoryBase`1/&lt;GetAll&gt;d__6" filename="VendorMachineTest.Data\Repository\RepositoryBase.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="51" hits="0" branch="False" />
-                <line number="52" hits="0" branch="False" />
-                <line number="53" hits="0" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="51" hits="0" branch="False" />
-            <line number="52" hits="0" branch="False" />
-            <line number="53" hits="0" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Data.RepositoryBase`1/&lt;GetBy&gt;d__4" filename="VendorMachineTest.Data\Repository\RepositoryBase.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="4">
               <lines>
-                <line number="32" hits="3" branch="False" />
-                <line number="33" hits="3" branch="False" />
-                <line number="35" hits="3" branch="True" condition-coverage="100% (2/2)">
+                <line number="32" hits="4" branch="False" />
+                <line number="33" hits="4" branch="False" />
+                <line number="35" hits="4" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="63" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="36" hits="2" branch="False" />
-                <line number="37" hits="12" branch="True" condition-coverage="100% (2/2)">
+                <line number="36" hits="3" branch="False" />
+                <line number="37" hits="19" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="167" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="38" hits="3" branch="False" />
-                <line number="39" hits="3" branch="False" />
-                <line number="40" hits="3" branch="False" />
-                <line number="41" hits="2" branch="False" />
-                <line number="42" hits="3" branch="False" />
-                <line number="43" hits="3" branch="False" />
+                <line number="38" hits="5" branch="False" />
+                <line number="39" hits="5" branch="False" />
+                <line number="40" hits="5" branch="False" />
+                <line number="41" hits="3" branch="False" />
+                <line number="42" hits="4" branch="False" />
+                <line number="43" hits="4" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="32" hits="3" branch="False" />
-            <line number="33" hits="3" branch="False" />
-            <line number="35" hits="3" branch="True" condition-coverage="100% (2/2)">
+            <line number="32" hits="4" branch="False" />
+            <line number="33" hits="4" branch="False" />
+            <line number="35" hits="4" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="63" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="36" hits="2" branch="False" />
-            <line number="37" hits="12" branch="True" condition-coverage="100% (2/2)">
+            <line number="36" hits="3" branch="False" />
+            <line number="37" hits="19" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="167" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="38" hits="3" branch="False" />
-            <line number="39" hits="3" branch="False" />
-            <line number="40" hits="3" branch="False" />
-            <line number="41" hits="2" branch="False" />
-            <line number="42" hits="3" branch="False" />
-            <line number="43" hits="3" branch="False" />
+            <line number="38" hits="5" branch="False" />
+            <line number="39" hits="5" branch="False" />
+            <line number="40" hits="5" branch="False" />
+            <line number="41" hits="3" branch="False" />
+            <line number="42" hits="4" branch="False" />
+            <line number="43" hits="4" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Data.RepositoryBase`1/&lt;GetById&gt;d__5" filename="VendorMachineTest.Data\Repository\RepositoryBase.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -162,27 +162,27 @@
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="56" hits="1" branch="False" />
-                <line number="57" hits="1" branch="False" />
-                <line number="58" hits="1" branch="False" />
-                <line number="59" hits="1" branch="False" />
-                <line number="60" hits="1" branch="False" />
+                <line number="56" hits="2" branch="False" />
+                <line number="57" hits="2" branch="False" />
+                <line number="58" hits="2" branch="False" />
+                <line number="59" hits="2" branch="False" />
+                <line number="60" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="56" hits="1" branch="False" />
-            <line number="57" hits="1" branch="False" />
-            <line number="58" hits="1" branch="False" />
-            <line number="59" hits="1" branch="False" />
-            <line number="60" hits="1" branch="False" />
+            <line number="56" hits="2" branch="False" />
+            <line number="57" hits="2" branch="False" />
+            <line number="58" hits="2" branch="False" />
+            <line number="59" hits="2" branch="False" />
+            <line number="60" hits="2" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Data.UOW.UnitOfWork" filename="VendorMachineTest.Data\UOW\UnitOfWork.cs" line-rate="0.6666" branch-rate="0.5" complexity="6">
           <methods>
             <method name="get_Repositories" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="18" branch="False" />
+                <line number="18" hits="24" branch="False" />
               </lines>
             </method>
             <method name="set_Repositories" signature="(System.Collections.Generic.Dictionary`2&lt;System.Type,System.Object&gt;)" line-rate="0" branch-rate="1" complexity="1">
@@ -192,18 +192,18 @@
             </method>
             <method name="Repository" signature="()" line-rate="0.75" branch-rate="0.5" complexity="2">
               <lines>
-                <line number="28" hits="3" branch="False" />
-                <line number="29" hits="3" branch="True" condition-coverage="50% (1/2)">
+                <line number="28" hits="4" branch="False" />
+                <line number="29" hits="4" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
                     <condition number="29" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="30" hits="0" branch="False" />
                 <line number="31" hits="0" branch="False" />
-                <line number="34" hits="3" branch="False" />
-                <line number="35" hits="3" branch="False" />
-                <line number="36" hits="3" branch="False" />
-                <line number="37" hits="3" branch="False" />
+                <line number="34" hits="4" branch="False" />
+                <line number="35" hits="4" branch="False" />
+                <line number="36" hits="4" branch="False" />
+                <line number="37" hits="4" branch="False" />
               </lines>
             </method>
             <method name="Rollback" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -215,53 +215,53 @@
             </method>
             <method name=".ctor" signature="(VendorMachineTest.Data.Context.VendorMachineContext)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="12" branch="False" />
-                <line number="22" hits="12" branch="False" />
-                <line number="23" hits="12" branch="False" />
-                <line number="24" hits="12" branch="False" />
-                <line number="25" hits="12" branch="False" />
+                <line number="14" hits="18" branch="False" />
+                <line number="22" hits="18" branch="False" />
+                <line number="23" hits="18" branch="False" />
+                <line number="24" hits="18" branch="False" />
+                <line number="25" hits="18" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="18" hits="18" branch="False" />
+            <line number="18" hits="24" branch="False" />
             <line number="19" hits="0" branch="False" />
-            <line number="28" hits="3" branch="False" />
-            <line number="29" hits="3" branch="True" condition-coverage="50% (1/2)">
+            <line number="28" hits="4" branch="False" />
+            <line number="29" hits="4" branch="True" condition-coverage="50% (1/2)">
               <conditions>
                 <condition number="29" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="30" hits="0" branch="False" />
             <line number="31" hits="0" branch="False" />
-            <line number="34" hits="3" branch="False" />
-            <line number="35" hits="3" branch="False" />
-            <line number="36" hits="3" branch="False" />
-            <line number="37" hits="3" branch="False" />
+            <line number="34" hits="4" branch="False" />
+            <line number="35" hits="4" branch="False" />
+            <line number="36" hits="4" branch="False" />
+            <line number="37" hits="4" branch="False" />
             <line number="45" hits="0" branch="False" />
             <line number="46" hits="0" branch="False" />
             <line number="47" hits="0" branch="False" />
-            <line number="14" hits="12" branch="False" />
-            <line number="22" hits="12" branch="False" />
-            <line number="23" hits="12" branch="False" />
-            <line number="24" hits="12" branch="False" />
-            <line number="25" hits="12" branch="False" />
+            <line number="14" hits="18" branch="False" />
+            <line number="22" hits="18" branch="False" />
+            <line number="23" hits="18" branch="False" />
+            <line number="24" hits="18" branch="False" />
+            <line number="25" hits="18" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Data.UOW.UnitOfWork/&lt;Commit&gt;d__7" filename="VendorMachineTest.Data\UOW\UnitOfWork.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="40" hits="2" branch="False" />
-                <line number="41" hits="2" branch="False" />
-                <line number="42" hits="2" branch="False" />
+                <line number="40" hits="3" branch="False" />
+                <line number="41" hits="3" branch="False" />
+                <line number="42" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="40" hits="2" branch="False" />
-            <line number="41" hits="2" branch="False" />
-            <line number="42" hits="2" branch="False" />
+            <line number="40" hits="3" branch="False" />
+            <line number="41" hits="3" branch="False" />
+            <line number="42" hits="3" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Data.Repository.MachineCurrencyRepository" filename="VendorMachineTest.Data\Repository\MachineCurrencyRepository.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -328,36 +328,36 @@
             <line number="11" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="VendorMachineTest.Data.Repository.ProductRepository" filename="VendorMachineTest.Data\Repository\ProductRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="VendorMachineTest.Data.Repository.ProductRepository" filename="VendorMachineTest.Data\Repository\ProductRepository.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name=".ctor" signature="(VendorMachineTest.Data.Context.VendorMachineContext)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(VendorMachineTest.Data.Context.VendorMachineContext)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="0" branch="False" />
-                <line number="10" hits="0" branch="False" />
-                <line number="11" hits="0" branch="False" />
+                <line number="9" hits="2" branch="False" />
+                <line number="10" hits="2" branch="False" />
+                <line number="11" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="9" hits="0" branch="False" />
-            <line number="10" hits="0" branch="False" />
-            <line number="11" hits="0" branch="False" />
+            <line number="9" hits="2" branch="False" />
+            <line number="10" hits="2" branch="False" />
+            <line number="11" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="VendorMachineTest.Data.Repository.ProductStockRepository" filename="VendorMachineTest.Data\Repository\ProductStockRepository.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="VendorMachineTest.Data.Repository.ProductStockRepository" filename="VendorMachineTest.Data\Repository\ProductStockRepository.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name=".ctor" signature="(VendorMachineTest.Data.Context.VendorMachineContext)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(VendorMachineTest.Data.Context.VendorMachineContext)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="0" branch="False" />
-                <line number="10" hits="0" branch="False" />
-                <line number="11" hits="0" branch="False" />
+                <line number="9" hits="2" branch="False" />
+                <line number="10" hits="2" branch="False" />
+                <line number="11" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="9" hits="0" branch="False" />
-            <line number="10" hits="0" branch="False" />
-            <line number="11" hits="0" branch="False" />
+            <line number="9" hits="2" branch="False" />
+            <line number="10" hits="2" branch="False" />
+            <line number="11" hits="2" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Data.Repository.SalesRepository" filename="VendorMachineTest.Data\Repository\SalesRepository.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -380,37 +380,37 @@
           <methods>
             <method name="get_Machine" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="10" branch="False" />
+                <line number="15" hits="12" branch="False" />
               </lines>
             </method>
             <method name="get_MachineSlots" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="10" branch="False" />
+                <line number="16" hits="12" branch="False" />
               </lines>
             </method>
             <method name="get_MachineLanguage" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="10" branch="False" />
+                <line number="17" hits="12" branch="False" />
               </lines>
             </method>
             <method name="get_MachineCurrency" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="10" branch="False" />
+                <line number="18" hits="12" branch="False" />
               </lines>
             </method>
             <method name="get_Product" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="10" branch="False" />
+                <line number="19" hits="12" branch="False" />
               </lines>
             </method>
             <method name="get_ProductStock" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="10" branch="False" />
+                <line number="20" hits="12" branch="False" />
               </lines>
             </method>
             <method name="get_Sales" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="10" branch="False" />
+                <line number="21" hits="12" branch="False" />
               </lines>
             </method>
             <method name="OnModelCreating" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)" line-rate="1" branch-rate="1" complexity="1">
@@ -454,20 +454,20 @@
             </method>
             <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;VendorMachineTest.Data.Context.VendorMachineContext&gt;)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="5" branch="False" />
-                <line number="12" hits="5" branch="False" />
-                <line number="13" hits="5" branch="False" />
+                <line number="11" hits="6" branch="False" />
+                <line number="12" hits="6" branch="False" />
+                <line number="13" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="15" hits="10" branch="False" />
-            <line number="16" hits="10" branch="False" />
-            <line number="17" hits="10" branch="False" />
-            <line number="18" hits="10" branch="False" />
-            <line number="19" hits="10" branch="False" />
-            <line number="20" hits="10" branch="False" />
-            <line number="21" hits="10" branch="False" />
+            <line number="15" hits="12" branch="False" />
+            <line number="16" hits="12" branch="False" />
+            <line number="17" hits="12" branch="False" />
+            <line number="18" hits="12" branch="False" />
+            <line number="19" hits="12" branch="False" />
+            <line number="20" hits="12" branch="False" />
+            <line number="21" hits="12" branch="False" />
             <line number="24" hits="1" branch="False" />
             <line number="26" hits="1" branch="False" />
             <line number="27" hits="1" branch="False" />
@@ -499,53 +499,53 @@
             <line number="45" hits="0" branch="False" />
             <line number="46" hits="0" branch="False" />
             <line number="47" hits="0" branch="False" />
-            <line number="11" hits="5" branch="False" />
-            <line number="12" hits="5" branch="False" />
-            <line number="13" hits="5" branch="False" />
+            <line number="11" hits="6" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="13" hits="6" branch="False" />
           </lines>
         </class>
       </classes>
     </package>
-    <package name="VendorMachineTest" line-rate="0.9636" branch-rate="1" complexity="14">
+    <package name="VendorMachineTest" line-rate="0.9655" branch-rate="1" complexity="16">
       <classes>
         <class name="VendorMachineTest.Startup" filename="VendorMachineTest\Startup.cs" line-rate="0.9229999999999999" branch-rate="1" complexity="5">
           <methods>
             <method name="get_Configuration" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="23" hits="5" branch="False" />
+                <line number="23" hits="6" branch="False" />
               </lines>
             </method>
             <method name="ConfigureServices" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="27" hits="5" branch="False" />
-                <line number="29" hits="5" branch="False" />
-                <line number="30" hits="5" branch="False" />
-                <line number="31" hits="5" branch="False" />
-                <line number="32" hits="5" branch="False" />
-                <line number="33" hits="10" branch="False" />
-                <line number="34" hits="5" branch="False" />
-                <line number="36" hits="5" branch="False" />
-                <line number="37" hits="5" branch="False" />
-                <line number="38" hits="5" branch="False" />
-                <line number="39" hits="5" branch="False" />
-                <line number="40" hits="5" branch="False" />
-                <line number="41" hits="5" branch="False" />
-                <line number="42" hits="5" branch="False" />
-                <line number="43" hits="5" branch="False" />
-                <line number="44" hits="5" branch="False" />
-                <line number="45" hits="5" branch="False" />
-                <line number="46" hits="10" branch="False" />
-                <line number="47" hits="10" branch="False" />
-                <line number="49" hits="5" branch="False" />
-                <line number="51" hits="5" branch="False" />
-                <line number="54" hits="5" branch="False" />
-                <line number="55" hits="5" branch="False" />
-                <line number="56" hits="5" branch="False" />
-                <line number="57" hits="10" branch="False" />
-                <line number="58" hits="5" branch="False" />
-                <line number="59" hits="5" branch="False" />
-                <line number="63" hits="5" branch="False" />
-                <line number="65" hits="5" branch="False" />
+                <line number="27" hits="6" branch="False" />
+                <line number="29" hits="6" branch="False" />
+                <line number="30" hits="6" branch="False" />
+                <line number="31" hits="6" branch="False" />
+                <line number="32" hits="6" branch="False" />
+                <line number="33" hits="12" branch="False" />
+                <line number="34" hits="6" branch="False" />
+                <line number="36" hits="6" branch="False" />
+                <line number="37" hits="6" branch="False" />
+                <line number="38" hits="6" branch="False" />
+                <line number="39" hits="6" branch="False" />
+                <line number="40" hits="6" branch="False" />
+                <line number="41" hits="6" branch="False" />
+                <line number="42" hits="6" branch="False" />
+                <line number="43" hits="6" branch="False" />
+                <line number="44" hits="6" branch="False" />
+                <line number="45" hits="6" branch="False" />
+                <line number="46" hits="12" branch="False" />
+                <line number="47" hits="12" branch="False" />
+                <line number="49" hits="6" branch="False" />
+                <line number="51" hits="6" branch="False" />
+                <line number="54" hits="6" branch="False" />
+                <line number="55" hits="6" branch="False" />
+                <line number="56" hits="6" branch="False" />
+                <line number="57" hits="12" branch="False" />
+                <line number="58" hits="6" branch="False" />
+                <line number="59" hits="6" branch="False" />
+                <line number="63" hits="6" branch="False" />
+                <line number="65" hits="6" branch="False" />
               </lines>
             </method>
             <method name="ConfigureDataBase" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="0" branch-rate="1" complexity="1">
@@ -558,206 +558,218 @@
             </method>
             <method name="Configure" signature="(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="78" hits="5" branch="False" />
-                <line number="79" hits="5" branch="False" />
-                <line number="80" hits="5" branch="False" />
-                <line number="81" hits="10" branch="False" />
-                <line number="83" hits="5" branch="False" />
-                <line number="85" hits="5" branch="False" />
-                <line number="87" hits="5" branch="False" />
-                <line number="89" hits="5" branch="False" />
-                <line number="91" hits="5" branch="False" />
-                <line number="92" hits="5" branch="False" />
-                <line number="93" hits="5" branch="False" />
-                <line number="94" hits="10" branch="False" />
-                <line number="95" hits="5" branch="False" />
+                <line number="78" hits="6" branch="False" />
+                <line number="79" hits="6" branch="False" />
+                <line number="80" hits="6" branch="False" />
+                <line number="81" hits="12" branch="False" />
+                <line number="83" hits="6" branch="False" />
+                <line number="85" hits="6" branch="False" />
+                <line number="87" hits="6" branch="False" />
+                <line number="89" hits="6" branch="False" />
+                <line number="91" hits="6" branch="False" />
+                <line number="92" hits="6" branch="False" />
+                <line number="93" hits="6" branch="False" />
+                <line number="94" hits="12" branch="False" />
+                <line number="95" hits="6" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(Microsoft.Extensions.Configuration.IConfiguration)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="5" branch="False" />
-                <line number="18" hits="5" branch="False" />
-                <line number="19" hits="5" branch="False" />
-                <line number="20" hits="5" branch="False" />
-                <line number="21" hits="5" branch="False" />
+                <line number="17" hits="6" branch="False" />
+                <line number="18" hits="6" branch="False" />
+                <line number="19" hits="6" branch="False" />
+                <line number="20" hits="6" branch="False" />
+                <line number="21" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="23" hits="5" branch="False" />
-            <line number="27" hits="5" branch="False" />
-            <line number="29" hits="5" branch="False" />
-            <line number="30" hits="5" branch="False" />
-            <line number="31" hits="5" branch="False" />
-            <line number="32" hits="5" branch="False" />
-            <line number="33" hits="10" branch="False" />
-            <line number="34" hits="5" branch="False" />
-            <line number="36" hits="5" branch="False" />
-            <line number="37" hits="5" branch="False" />
-            <line number="38" hits="5" branch="False" />
-            <line number="39" hits="5" branch="False" />
-            <line number="40" hits="5" branch="False" />
-            <line number="41" hits="5" branch="False" />
-            <line number="42" hits="5" branch="False" />
-            <line number="43" hits="5" branch="False" />
-            <line number="44" hits="5" branch="False" />
-            <line number="45" hits="5" branch="False" />
-            <line number="46" hits="10" branch="False" />
-            <line number="47" hits="10" branch="False" />
-            <line number="49" hits="5" branch="False" />
-            <line number="51" hits="5" branch="False" />
-            <line number="54" hits="5" branch="False" />
-            <line number="55" hits="5" branch="False" />
-            <line number="56" hits="5" branch="False" />
-            <line number="57" hits="10" branch="False" />
-            <line number="58" hits="5" branch="False" />
-            <line number="59" hits="5" branch="False" />
-            <line number="63" hits="5" branch="False" />
-            <line number="65" hits="5" branch="False" />
+            <line number="23" hits="6" branch="False" />
+            <line number="27" hits="6" branch="False" />
+            <line number="29" hits="6" branch="False" />
+            <line number="30" hits="6" branch="False" />
+            <line number="31" hits="6" branch="False" />
+            <line number="32" hits="6" branch="False" />
+            <line number="33" hits="12" branch="False" />
+            <line number="34" hits="6" branch="False" />
+            <line number="36" hits="6" branch="False" />
+            <line number="37" hits="6" branch="False" />
+            <line number="38" hits="6" branch="False" />
+            <line number="39" hits="6" branch="False" />
+            <line number="40" hits="6" branch="False" />
+            <line number="41" hits="6" branch="False" />
+            <line number="42" hits="6" branch="False" />
+            <line number="43" hits="6" branch="False" />
+            <line number="44" hits="6" branch="False" />
+            <line number="45" hits="6" branch="False" />
+            <line number="46" hits="12" branch="False" />
+            <line number="47" hits="12" branch="False" />
+            <line number="49" hits="6" branch="False" />
+            <line number="51" hits="6" branch="False" />
+            <line number="54" hits="6" branch="False" />
+            <line number="55" hits="6" branch="False" />
+            <line number="56" hits="6" branch="False" />
+            <line number="57" hits="12" branch="False" />
+            <line number="58" hits="6" branch="False" />
+            <line number="59" hits="6" branch="False" />
+            <line number="63" hits="6" branch="False" />
+            <line number="65" hits="6" branch="False" />
             <line number="69" hits="0" branch="False" />
             <line number="71" hits="0" branch="False" />
             <line number="72" hits="0" branch="False" />
             <line number="74" hits="0" branch="False" />
-            <line number="78" hits="5" branch="False" />
-            <line number="79" hits="5" branch="False" />
-            <line number="80" hits="5" branch="False" />
-            <line number="81" hits="10" branch="False" />
-            <line number="83" hits="5" branch="False" />
-            <line number="85" hits="5" branch="False" />
-            <line number="87" hits="5" branch="False" />
-            <line number="89" hits="5" branch="False" />
-            <line number="91" hits="5" branch="False" />
-            <line number="92" hits="5" branch="False" />
-            <line number="93" hits="5" branch="False" />
-            <line number="94" hits="10" branch="False" />
-            <line number="95" hits="5" branch="False" />
-            <line number="17" hits="5" branch="False" />
-            <line number="18" hits="5" branch="False" />
-            <line number="19" hits="5" branch="False" />
-            <line number="20" hits="5" branch="False" />
-            <line number="21" hits="5" branch="False" />
+            <line number="78" hits="6" branch="False" />
+            <line number="79" hits="6" branch="False" />
+            <line number="80" hits="6" branch="False" />
+            <line number="81" hits="12" branch="False" />
+            <line number="83" hits="6" branch="False" />
+            <line number="85" hits="6" branch="False" />
+            <line number="87" hits="6" branch="False" />
+            <line number="89" hits="6" branch="False" />
+            <line number="91" hits="6" branch="False" />
+            <line number="92" hits="6" branch="False" />
+            <line number="93" hits="6" branch="False" />
+            <line number="94" hits="12" branch="False" />
+            <line number="95" hits="6" branch="False" />
+            <line number="17" hits="6" branch="False" />
+            <line number="18" hits="6" branch="False" />
+            <line number="19" hits="6" branch="False" />
+            <line number="20" hits="6" branch="False" />
+            <line number="21" hits="6" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Extensions.AutoMapperSetup" filename="VendorMachineTest\Extensions\AutoMapperSetup.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="5" branch="False" />
-                <line number="10" hits="5" branch="False" />
-                <line number="11" hits="5" branch="False" />
-                <line number="12" hits="5" branch="False" />
-                <line number="13" hits="5" branch="False" />
-                <line number="14" hits="5" branch="False" />
-                <line number="15" hits="5" branch="False" />
-                <line number="16" hits="5" branch="False" />
-                <line number="17" hits="5" branch="False" />
-                <line number="18" hits="5" branch="False" />
+                <line number="9" hits="6" branch="False" />
+                <line number="10" hits="6" branch="False" />
+                <line number="11" hits="6" branch="False" />
+                <line number="12" hits="6" branch="False" />
+                <line number="13" hits="6" branch="False" />
+                <line number="14" hits="6" branch="False" />
+                <line number="15" hits="6" branch="False" />
+                <line number="16" hits="6" branch="False" />
+                <line number="17" hits="6" branch="False" />
+                <line number="18" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="9" hits="5" branch="False" />
-            <line number="10" hits="5" branch="False" />
-            <line number="11" hits="5" branch="False" />
-            <line number="12" hits="5" branch="False" />
-            <line number="13" hits="5" branch="False" />
-            <line number="14" hits="5" branch="False" />
-            <line number="15" hits="5" branch="False" />
-            <line number="16" hits="5" branch="False" />
-            <line number="17" hits="5" branch="False" />
-            <line number="18" hits="5" branch="False" />
+            <line number="9" hits="6" branch="False" />
+            <line number="10" hits="6" branch="False" />
+            <line number="11" hits="6" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="False" />
+            <line number="15" hits="6" branch="False" />
+            <line number="16" hits="6" branch="False" />
+            <line number="17" hits="6" branch="False" />
+            <line number="18" hits="6" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Extensions.MediatRSetup" filename="VendorMachineTest\Extensions\MediatRSetup.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="AddMediatRSetup" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="5" branch="False" />
-                <line number="11" hits="5" branch="False" />
-                <line number="12" hits="5" branch="False" />
+                <line number="10" hits="6" branch="False" />
+                <line number="11" hits="6" branch="False" />
+                <line number="12" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="10" hits="5" branch="False" />
-            <line number="11" hits="5" branch="False" />
-            <line number="12" hits="5" branch="False" />
+            <line number="10" hits="6" branch="False" />
+            <line number="11" hits="6" branch="False" />
+            <line number="12" hits="6" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.DependencyInjection.ServicesInjection" filename="VendorMachineTest\DependencyInjection\ServicesInjection.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="Inject" signature="(Microsoft.Extensions.DependencyInjection.IServiceCollection)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="5" branch="False" />
-                <line number="14" hits="5" branch="False" />
-                <line number="15" hits="5" branch="False" />
-                <line number="16" hits="5" branch="False" />
-                <line number="17" hits="5" branch="False" />
-                <line number="18" hits="5" branch="False" />
-                <line number="19" hits="5" branch="False" />
-                <line number="20" hits="5" branch="False" />
-                <line number="21" hits="5" branch="False" />
-                <line number="22" hits="5" branch="False" />
-                <line number="23" hits="5" branch="False" />
+                <line number="13" hits="6" branch="False" />
+                <line number="14" hits="6" branch="False" />
+                <line number="15" hits="6" branch="False" />
+                <line number="16" hits="6" branch="False" />
+                <line number="17" hits="6" branch="False" />
+                <line number="18" hits="6" branch="False" />
+                <line number="19" hits="6" branch="False" />
+                <line number="20" hits="6" branch="False" />
+                <line number="21" hits="6" branch="False" />
+                <line number="22" hits="6" branch="False" />
+                <line number="23" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="5" branch="False" />
-            <line number="14" hits="5" branch="False" />
-            <line number="15" hits="5" branch="False" />
-            <line number="16" hits="5" branch="False" />
-            <line number="17" hits="5" branch="False" />
-            <line number="18" hits="5" branch="False" />
-            <line number="19" hits="5" branch="False" />
-            <line number="20" hits="5" branch="False" />
-            <line number="21" hits="5" branch="False" />
-            <line number="22" hits="5" branch="False" />
-            <line number="23" hits="5" branch="False" />
+            <line number="13" hits="6" branch="False" />
+            <line number="14" hits="6" branch="False" />
+            <line number="15" hits="6" branch="False" />
+            <line number="16" hits="6" branch="False" />
+            <line number="17" hits="6" branch="False" />
+            <line number="18" hits="6" branch="False" />
+            <line number="19" hits="6" branch="False" />
+            <line number="20" hits="6" branch="False" />
+            <line number="21" hits="6" branch="False" />
+            <line number="22" hits="6" branch="False" />
+            <line number="23" hits="6" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Controllers.MachineController" filename="VendorMachineTest\Controllers\MachineController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name=".ctor" signature="(VendorMachineTest.Domain.Interfaces.UOW.IUnitOfWork,AutoMapper.IMapper,MediatR.IMediator)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="25" hits="5" branch="False" />
-                <line number="26" hits="5" branch="False" />
-                <line number="27" hits="5" branch="False" />
-                <line number="28" hits="5" branch="False" />
-                <line number="29" hits="5" branch="False" />
-                <line number="30" hits="5" branch="False" />
-                <line number="31" hits="5" branch="False" />
-                <line number="32" hits="5" branch="False" />
+                <line number="25" hits="6" branch="False" />
+                <line number="26" hits="6" branch="False" />
+                <line number="27" hits="6" branch="False" />
+                <line number="28" hits="6" branch="False" />
+                <line number="29" hits="6" branch="False" />
+                <line number="30" hits="6" branch="False" />
+                <line number="31" hits="6" branch="False" />
+                <line number="32" hits="6" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="25" hits="5" branch="False" />
-            <line number="26" hits="5" branch="False" />
-            <line number="27" hits="5" branch="False" />
-            <line number="28" hits="5" branch="False" />
-            <line number="29" hits="5" branch="False" />
-            <line number="30" hits="5" branch="False" />
-            <line number="31" hits="5" branch="False" />
-            <line number="32" hits="5" branch="False" />
+            <line number="25" hits="6" branch="False" />
+            <line number="26" hits="6" branch="False" />
+            <line number="27" hits="6" branch="False" />
+            <line number="28" hits="6" branch="False" />
+            <line number="29" hits="6" branch="False" />
+            <line number="30" hits="6" branch="False" />
+            <line number="31" hits="6" branch="False" />
+            <line number="32" hits="6" branch="False" />
           </lines>
         </class>
-        <class name="VendorMachineTest.Controllers.MachineController/&lt;CreateSale&gt;d__7" filename="VendorMachineTest\Controllers\MachineController.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="VendorMachineTest.Controllers.MachineController/&lt;&gt;c" filename="VendorMachineTest\Controllers\MachineController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;GetSales&gt;b__6_0" signature="(VendorMachineTest.Domain.Entities.Sales)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="76" hits="4" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="76" hits="4" branch="False" />
+          </lines>
+        </class>
+        <class name="VendorMachineTest.Controllers.MachineController/&lt;CreateSale&gt;d__8" filename="VendorMachineTest\Controllers\MachineController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="87" hits="1" branch="False" />
-                <line number="89" hits="1" branch="False" />
-                <line number="91" hits="1" branch="False" />
-                <line number="92" hits="1" branch="False" />
+                <line number="103" hits="1" branch="False" />
+                <line number="105" hits="1" branch="False" />
+                <line number="107" hits="1" branch="False" />
+                <line number="108" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="87" hits="1" branch="False" />
-            <line number="89" hits="1" branch="False" />
-            <line number="91" hits="1" branch="False" />
-            <line number="92" hits="1" branch="False" />
+            <line number="103" hits="1" branch="False" />
+            <line number="105" hits="1" branch="False" />
+            <line number="107" hits="1" branch="False" />
+            <line number="108" hits="1" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Controllers.MachineController/&lt;GetMachineById&gt;d__4" filename="VendorMachineTest\Controllers\MachineController.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -782,14 +794,35 @@
             <line number="47" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="VendorMachineTest.Controllers.MachineController/&lt;GetProductStockByProductId&gt;d__6" filename="VendorMachineTest\Controllers\MachineController.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="VendorMachineTest.Controllers.MachineController/&lt;GetProductStockByProductId&gt;d__7" filename="VendorMachineTest\Controllers\MachineController.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="87" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
+                <line number="92" hits="1" branch="False" />
+                <line number="94" hits="1" branch="False" />
+                <line number="95" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="87" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
+            <line number="92" hits="1" branch="False" />
+            <line number="94" hits="1" branch="False" />
+            <line number="95" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="VendorMachineTest.Controllers.MachineController/&lt;GetSales&gt;d__6" filename="VendorMachineTest\Controllers\MachineController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="71" hits="1" branch="False" />
                 <line number="73" hits="1" branch="False" />
                 <line number="74" hits="1" branch="False" />
-                <line number="76" hits="1" branch="False" />
                 <line number="78" hits="1" branch="False" />
                 <line number="79" hits="1" branch="False" />
               </lines>
@@ -799,7 +832,6 @@
             <line number="71" hits="1" branch="False" />
             <line number="73" hits="1" branch="False" />
             <line number="74" hits="1" branch="False" />
-            <line number="76" hits="1" branch="False" />
             <line number="78" hits="1" branch="False" />
             <line number="79" hits="1" branch="False" />
           </lines>
@@ -826,27 +858,27 @@
             <line number="63" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="VendorMachineTest.Controllers.MachineController/&lt;UpdateMachine&gt;d__8" filename="VendorMachineTest\Controllers\MachineController.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="VendorMachineTest.Controllers.MachineController/&lt;UpdateMachine&gt;d__9" filename="VendorMachineTest\Controllers\MachineController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="99" hits="1" branch="False" />
-                <line number="101" hits="1" branch="False" />
-                <line number="103" hits="1" branch="False" />
-                <line number="104" hits="1" branch="False" />
+                <line number="115" hits="1" branch="False" />
+                <line number="117" hits="1" branch="False" />
+                <line number="119" hits="1" branch="False" />
+                <line number="120" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="99" hits="1" branch="False" />
-            <line number="101" hits="1" branch="False" />
-            <line number="103" hits="1" branch="False" />
-            <line number="104" hits="1" branch="False" />
+            <line number="115" hits="1" branch="False" />
+            <line number="117" hits="1" branch="False" />
+            <line number="119" hits="1" branch="False" />
+            <line number="120" hits="1" branch="False" />
           </lines>
         </class>
       </classes>
     </package>
-    <package name="VendorMachineTest.Domain" line-rate="0.7312000000000001" branch-rate="0.4" complexity="115">
+    <package name="VendorMachineTest.Domain" line-rate="0.7426" branch-rate="0.5" complexity="116">
       <classes>
         <class name="VendorMachineTest.Domain.Result" filename="VendorMachineTest.Domain\Result.cs" line-rate="0.6666" branch-rate="1" complexity="5">
           <methods>
@@ -1030,43 +1062,31 @@
             <line number="14" hits="5" branch="False" />
           </lines>
         </class>
-        <class name="VendorMachineTest.Domain.ViewModels.ProductStockViewModel" filename="VendorMachineTest.Domain\ViewModels\ProductStockViewModel.cs" line-rate="1" branch-rate="1" complexity="5">
+        <class name="VendorMachineTest.Domain.ViewModels.ProductStockViewModel" filename="VendorMachineTest.Domain\ViewModels\ProductStockViewModel.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="4" branch="False" />
+                <line number="7" hits="13" branch="False" />
               </lines>
             </method>
-            <method name="get_Quantidade" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="get_Quantity" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="3" branch="False" />
+                <line number="8" hits="12" branch="False" />
               </lines>
             </method>
             <method name="get_CreatedOn" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="3" branch="False" />
-              </lines>
-            </method>
-            <method name="get_Product" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="10" hits="3" branch="False" />
-              </lines>
-            </method>
-            <method name="get_ProductId" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="11" hits="3" branch="False" />
+                <line number="9" hits="12" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="7" hits="4" branch="False" />
-            <line number="8" hits="3" branch="False" />
-            <line number="9" hits="3" branch="False" />
-            <line number="10" hits="3" branch="False" />
-            <line number="11" hits="3" branch="False" />
+            <line number="7" hits="13" branch="False" />
+            <line number="8" hits="12" branch="False" />
+            <line number="9" hits="12" branch="False" />
           </lines>
         </class>
-        <class name="VendorMachineTest.Domain.ViewModels.ProductViewModel" filename="VendorMachineTest.Domain\ViewModels\ProductViewModel.cs" line-rate="1" branch-rate="1" complexity="6">
+        <class name="VendorMachineTest.Domain.ViewModels.ProductViewModel" filename="VendorMachineTest.Domain\ViewModels\ProductViewModel.cs" line-rate="1" branch-rate="1" complexity="7">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1088,14 +1108,19 @@
                 <line number="10" hits="9" branch="False" />
               </lines>
             </method>
-            <method name="get_Quantity" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="11" hits="6" branch="False" />
-              </lines>
-            </method>
             <method name="get_CreatedOn" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
+                <line number="11" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ProductStock" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
                 <line number="12" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ProductStockId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="9" branch="False" />
               </lines>
             </method>
           </methods>
@@ -1104,38 +1129,39 @@
             <line number="8" hits="9" branch="False" />
             <line number="9" hits="9" branch="False" />
             <line number="10" hits="9" branch="False" />
-            <line number="11" hits="6" branch="False" />
+            <line number="11" hits="9" branch="False" />
             <line number="12" hits="9" branch="False" />
+            <line number="13" hits="9" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Domain.ViewModels.SalesViewModel" filename="VendorMachineTest.Domain\ViewModels\SalesViewModel.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="2" branch="False" />
+                <line number="8" hits="11" branch="False" />
               </lines>
             </method>
             <method name="get_ProductPrice" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="2" branch="False" />
+                <line number="9" hits="11" branch="False" />
               </lines>
             </method>
             <method name="get_CreatedOn" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="2" branch="False" />
+                <line number="10" hits="11" branch="False" />
               </lines>
             </method>
             <method name="get_ProductId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="2" branch="False" />
+                <line number="11" hits="11" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="8" hits="2" branch="False" />
-            <line number="9" hits="2" branch="False" />
-            <line number="10" hits="2" branch="False" />
-            <line number="11" hits="2" branch="False" />
+            <line number="8" hits="11" branch="False" />
+            <line number="9" hits="11" branch="False" />
+            <line number="10" hits="11" branch="False" />
+            <line number="11" hits="11" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Domain.Validations.MachineValidation" filename="VendorMachineTest.Domain\Validations\MachineValidation.cs" line-rate="1" branch-rate="1" complexity="3">
@@ -1408,7 +1434,7 @@
             <line number="13" hits="15" branch="False" />
           </lines>
         </class>
-        <class name="VendorMachineTest.Domain.Entities.Product" filename="VendorMachineTest.Domain\Entities\Product.cs" line-rate="1" branch-rate="1" complexity="5">
+        <class name="VendorMachineTest.Domain.Entities.Product" filename="VendorMachineTest.Domain\Entities\Product.cs" line-rate="1" branch-rate="1" complexity="7">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1435,6 +1461,16 @@
                 <line number="11" hits="9" branch="False" />
               </lines>
             </method>
+            <method name="get_ProductStock" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="get_ProductStockId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="9" branch="False" />
+              </lines>
+            </method>
           </methods>
           <lines>
             <line number="7" hits="9" branch="False" />
@@ -1442,28 +1478,54 @@
             <line number="9" hits="9" branch="False" />
             <line number="10" hits="9" branch="False" />
             <line number="11" hits="9" branch="False" />
+            <line number="12" hits="6" branch="False" />
+            <line number="13" hits="9" branch="False" />
           </lines>
         </class>
-        <class name="VendorMachineTest.Domain.Entities.ProductStock" filename="VendorMachineTest.Domain\Entities\ProductStock.cs" line-rate="1" branch-rate="1" complexity="5">
+        <class name="VendorMachineTest.Domain.Entities.ProductStock" filename="VendorMachineTest.Domain\Entities\ProductStock.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="10" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Quantity" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="12" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CreatedOn" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="10" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="10" branch="False" />
+            <line number="8" hits="12" branch="False" />
+            <line number="9" hits="10" branch="False" />
+          </lines>
+        </class>
+        <class name="VendorMachineTest.Domain.Entities.Sales" filename="VendorMachineTest.Domain\Entities\Sales.cs" line-rate="0.8" branch-rate="1" complexity="5">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="7" hits="7" branch="False" />
               </lines>
             </method>
-            <method name="get_Quantidade" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="get_ProductPrice" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="8" hits="7" branch="False" />
               </lines>
             </method>
             <method name="get_CreatedOn" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="7" branch="False" />
+                <line number="9" hits="10" branch="False" />
               </lines>
             </method>
-            <method name="get_Product" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="get_Product" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="1" branch="False" />
+                <line number="10" hits="0" branch="False" />
               </lines>
             </method>
             <method name="get_ProductId" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -1475,237 +1537,231 @@
           <lines>
             <line number="7" hits="7" branch="False" />
             <line number="8" hits="7" branch="False" />
-            <line number="9" hits="7" branch="False" />
-            <line number="10" hits="1" branch="False" />
+            <line number="9" hits="10" branch="False" />
+            <line number="10" hits="0" branch="False" />
             <line number="11" hits="7" branch="False" />
           </lines>
         </class>
-        <class name="VendorMachineTest.Domain.Entities.Sales" filename="VendorMachineTest.Domain\Entities\Sales.cs" line-rate="0.8" branch-rate="1" complexity="5">
-          <methods>
-            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="7" hits="4" branch="False" />
-              </lines>
-            </method>
-            <method name="get_ProductPrice" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="8" hits="4" branch="False" />
-              </lines>
-            </method>
-            <method name="get_CreatedOn" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="9" hits="4" branch="False" />
-              </lines>
-            </method>
-            <method name="get_Product" signature="()" line-rate="0" branch-rate="1" complexity="1">
-              <lines>
-                <line number="10" hits="0" branch="False" />
-              </lines>
-            </method>
-            <method name="get_ProductId" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="11" hits="4" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="7" hits="4" branch="False" />
-            <line number="8" hits="4" branch="False" />
-            <line number="9" hits="4" branch="False" />
-            <line number="10" hits="0" branch="False" />
-            <line number="11" hits="4" branch="False" />
-          </lines>
-        </class>
-        <class name="VendorMachineTest.Domain.Commands.Handler" filename="VendorMachineTest.Domain\Commands\Handler.cs" line-rate="0.8" branch-rate="1" complexity="3">
+        <class name="VendorMachineTest.Domain.Commands.Handler" filename="VendorMachineTest.Domain\Commands\Handler.cs" line-rate="0.8571" branch-rate="1" complexity="3">
           <methods>
             <method name="GetSalesErrors" signature="(VendorMachineTest.Domain.Commands.Product.CreateSaleCommand)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="28" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
               </lines>
             </method>
             <method name="GetMachineErrors" signature="(VendorMachineTest.Domain.Commands.Product.UpdateMachineCommand)" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="31" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(MediatR.IMediator,VendorMachineTest.Domain.Interfaces.Repositories.ISalesRepository,VendorMachineTest.Domain.Interfaces.Repositories.IMachineRepository)" line-rate="1" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(MediatR.IMediator,VendorMachineTest.Domain.Interfaces.Repositories.ISalesRepository,VendorMachineTest.Domain.Interfaces.Repositories.IMachineRepository,VendorMachineTest.Domain.Interfaces.Repositories.IProductRepository,VendorMachineTest.Domain.Interfaces.Repositories.IProductStockRepository)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="2" branch="False" />
-                <line number="19" hits="2" branch="False" />
                 <line number="20" hits="2" branch="False" />
                 <line number="21" hits="2" branch="False" />
                 <line number="22" hits="2" branch="False" />
                 <line number="23" hits="2" branch="False" />
                 <line number="24" hits="2" branch="False" />
                 <line number="25" hits="2" branch="False" />
+                <line number="26" hits="2" branch="False" />
+                <line number="27" hits="2" branch="False" />
+                <line number="28" hits="2" branch="False" />
+                <line number="29" hits="2" branch="False" />
+                <line number="30" hits="2" branch="False" />
+                <line number="31" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="28" hits="0" branch="False" />
-            <line number="31" hits="0" branch="False" />
-            <line number="18" hits="2" branch="False" />
-            <line number="19" hits="2" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
             <line number="20" hits="2" branch="False" />
             <line number="21" hits="2" branch="False" />
             <line number="22" hits="2" branch="False" />
             <line number="23" hits="2" branch="False" />
             <line number="24" hits="2" branch="False" />
             <line number="25" hits="2" branch="False" />
+            <line number="26" hits="2" branch="False" />
+            <line number="27" hits="2" branch="False" />
+            <line number="28" hits="2" branch="False" />
+            <line number="29" hits="2" branch="False" />
+            <line number="30" hits="2" branch="False" />
+            <line number="31" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="VendorMachineTest.Domain.Commands.Handler/&lt;Handle&gt;d__6" filename="VendorMachineTest.Domain\Commands\Handler.cs" line-rate="0.64" branch-rate="0.5" complexity="4">
+        <class name="VendorMachineTest.Domain.Commands.Handler/&lt;Handle&gt;d__8" filename="VendorMachineTest.Domain\Commands\Handler.cs" line-rate="0.7187" branch-rate="0.6666" complexity="6">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0.64" branch-rate="0.5" complexity="4">
+            <method name="MoveNext" signature="()" line-rate="0.7187" branch-rate="0.6666" complexity="6">
               <lines>
-                <line number="34" hits="1" branch="False" />
-                <line number="35" hits="1" branch="False" />
-                <line number="37" hits="1" branch="True" condition-coverage="50% (1/2)">
-                  <conditions>
-                    <condition number="76" type="jump" coverage="50%" />
-                  </conditions>
-                </line>
-                <line number="38" hits="1" branch="True" condition-coverage="50% (1/2)">
-                  <conditions>
-                    <condition number="218" type="jump" coverage="50%" />
-                  </conditions>
-                </line>
-                <line number="39" hits="1" branch="False" />
                 <line number="40" hits="1" branch="False" />
                 <line number="41" hits="1" branch="False" />
-                <line number="42" hits="1" branch="False" />
-                <line number="43" hits="1" branch="False" />
-                <line number="44" hits="1" branch="False" />
+                <line number="43" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="127" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="44" hits="1" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="274" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
                 <line number="45" hits="1" branch="False" />
                 <line number="46" hits="1" branch="False" />
                 <line number="47" hits="1" branch="False" />
                 <line number="48" hits="1" branch="False" />
-                <line number="50" hits="0" branch="False" />
-                <line number="51" hits="0" branch="False" />
-                <line number="52" hits="0" branch="False" />
-                <line number="53" hits="0" branch="False" />
-                <line number="54" hits="0" branch="False" />
-                <line number="56" hits="0" branch="False" />
-                <line number="57" hits="0" branch="False" />
-                <line number="58" hits="0" branch="False" />
-                <line number="59" hits="0" branch="False" />
+                <line number="49" hits="1" branch="False" />
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="53" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="57" hits="1" branch="False" />
+                <line number="59" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="865" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
                 <line number="60" hits="1" branch="False" />
                 <line number="61" hits="1" branch="False" />
+                <line number="62" hits="1" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="67" hits="0" branch="False" />
+                <line number="68" hits="0" branch="False" />
+                <line number="69" hits="0" branch="False" />
+                <line number="70" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+                <line number="73" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="34" hits="1" branch="False" />
-            <line number="35" hits="1" branch="False" />
-            <line number="37" hits="1" branch="True" condition-coverage="50% (1/2)">
-              <conditions>
-                <condition number="76" type="jump" coverage="50%" />
-              </conditions>
-            </line>
-            <line number="38" hits="1" branch="True" condition-coverage="50% (1/2)">
-              <conditions>
-                <condition number="218" type="jump" coverage="50%" />
-              </conditions>
-            </line>
-            <line number="39" hits="1" branch="False" />
             <line number="40" hits="1" branch="False" />
             <line number="41" hits="1" branch="False" />
-            <line number="42" hits="1" branch="False" />
-            <line number="43" hits="1" branch="False" />
-            <line number="44" hits="1" branch="False" />
+            <line number="43" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="127" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="44" hits="1" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="274" type="jump" coverage="50%" />
+              </conditions>
+            </line>
             <line number="45" hits="1" branch="False" />
             <line number="46" hits="1" branch="False" />
             <line number="47" hits="1" branch="False" />
             <line number="48" hits="1" branch="False" />
-            <line number="50" hits="0" branch="False" />
-            <line number="51" hits="0" branch="False" />
-            <line number="52" hits="0" branch="False" />
-            <line number="53" hits="0" branch="False" />
-            <line number="54" hits="0" branch="False" />
-            <line number="56" hits="0" branch="False" />
-            <line number="57" hits="0" branch="False" />
-            <line number="58" hits="0" branch="False" />
-            <line number="59" hits="0" branch="False" />
+            <line number="49" hits="1" branch="False" />
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="53" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="57" hits="1" branch="False" />
+            <line number="59" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="865" type="jump" coverage="100%" />
+              </conditions>
+            </line>
             <line number="60" hits="1" branch="False" />
             <line number="61" hits="1" branch="False" />
+            <line number="62" hits="1" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="67" hits="0" branch="False" />
+            <line number="68" hits="0" branch="False" />
+            <line number="69" hits="0" branch="False" />
+            <line number="70" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="73" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="VendorMachineTest.Domain.Commands.Handler/&lt;Handle&gt;d__7" filename="VendorMachineTest.Domain\Commands\Handler.cs" line-rate="0.6537999999999999" branch-rate="0.5" complexity="4">
+        <class name="VendorMachineTest.Domain.Commands.Handler/&lt;Handle&gt;d__9" filename="VendorMachineTest.Domain\Commands\Handler.cs" line-rate="0.6537999999999999" branch-rate="0.5" complexity="4">
           <methods>
             <method name="MoveNext" signature="()" line-rate="0.6537999999999999" branch-rate="0.5" complexity="4">
               <lines>
-                <line number="64" hits="1" branch="False" />
-                <line number="65" hits="1" branch="False" />
-                <line number="67" hits="1" branch="True" condition-coverage="50% (1/2)">
+                <line number="80" hits="1" branch="False" />
+                <line number="81" hits="1" branch="False" />
+                <line number="83" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
                     <condition number="76" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="68" hits="1" branch="False" />
-                <line number="69" hits="1" branch="False" />
-                <line number="70" hits="1" branch="True" condition-coverage="50% (1/2)">
+                <line number="84" hits="1" branch="False" />
+                <line number="85" hits="1" branch="False" />
+                <line number="86" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
                     <condition number="237" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="71" hits="1" branch="False" />
-                <line number="72" hits="1" branch="False" />
-                <line number="73" hits="1" branch="False" />
-                <line number="74" hits="1" branch="False" />
-                <line number="75" hits="1" branch="False" />
-                <line number="76" hits="1" branch="False" />
-                <line number="77" hits="1" branch="False" />
-                <line number="78" hits="1" branch="False" />
-                <line number="80" hits="0" branch="False" />
-                <line number="81" hits="0" branch="False" />
-                <line number="82" hits="0" branch="False" />
-                <line number="83" hits="0" branch="False" />
-                <line number="84" hits="0" branch="False" />
-                <line number="85" hits="1" branch="False" />
-                <line number="87" hits="0" branch="False" />
-                <line number="88" hits="0" branch="False" />
-                <line number="89" hits="0" branch="False" />
-                <line number="90" hits="0" branch="False" />
+                <line number="87" hits="1" branch="False" />
+                <line number="88" hits="1" branch="False" />
+                <line number="89" hits="1" branch="False" />
+                <line number="90" hits="1" branch="False" />
                 <line number="91" hits="1" branch="False" />
                 <line number="92" hits="1" branch="False" />
+                <line number="93" hits="1" branch="False" />
+                <line number="94" hits="1" branch="False" />
+                <line number="96" hits="0" branch="False" />
+                <line number="97" hits="0" branch="False" />
+                <line number="98" hits="0" branch="False" />
+                <line number="99" hits="0" branch="False" />
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="1" branch="False" />
+                <line number="103" hits="0" branch="False" />
+                <line number="104" hits="0" branch="False" />
+                <line number="105" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+                <line number="107" hits="1" branch="False" />
+                <line number="108" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="64" hits="1" branch="False" />
-            <line number="65" hits="1" branch="False" />
-            <line number="67" hits="1" branch="True" condition-coverage="50% (1/2)">
+            <line number="80" hits="1" branch="False" />
+            <line number="81" hits="1" branch="False" />
+            <line number="83" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
                 <condition number="76" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="68" hits="1" branch="False" />
-            <line number="69" hits="1" branch="False" />
-            <line number="70" hits="1" branch="True" condition-coverage="50% (1/2)">
+            <line number="84" hits="1" branch="False" />
+            <line number="85" hits="1" branch="False" />
+            <line number="86" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
                 <condition number="237" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="71" hits="1" branch="False" />
-            <line number="72" hits="1" branch="False" />
-            <line number="73" hits="1" branch="False" />
-            <line number="74" hits="1" branch="False" />
-            <line number="75" hits="1" branch="False" />
-            <line number="76" hits="1" branch="False" />
-            <line number="77" hits="1" branch="False" />
-            <line number="78" hits="1" branch="False" />
-            <line number="80" hits="0" branch="False" />
-            <line number="81" hits="0" branch="False" />
-            <line number="82" hits="0" branch="False" />
-            <line number="83" hits="0" branch="False" />
-            <line number="84" hits="0" branch="False" />
-            <line number="85" hits="1" branch="False" />
-            <line number="87" hits="0" branch="False" />
-            <line number="88" hits="0" branch="False" />
-            <line number="89" hits="0" branch="False" />
-            <line number="90" hits="0" branch="False" />
+            <line number="87" hits="1" branch="False" />
+            <line number="88" hits="1" branch="False" />
+            <line number="89" hits="1" branch="False" />
+            <line number="90" hits="1" branch="False" />
             <line number="91" hits="1" branch="False" />
             <line number="92" hits="1" branch="False" />
+            <line number="93" hits="1" branch="False" />
+            <line number="94" hits="1" branch="False" />
+            <line number="96" hits="0" branch="False" />
+            <line number="97" hits="0" branch="False" />
+            <line number="98" hits="0" branch="False" />
+            <line number="99" hits="0" branch="False" />
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="1" branch="False" />
+            <line number="103" hits="0" branch="False" />
+            <line number="104" hits="0" branch="False" />
+            <line number="105" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="107" hits="1" branch="False" />
+            <line number="108" hits="1" branch="False" />
           </lines>
         </class>
         <class name="VendorMachineTest.Domain.Commands.MachineCommand" filename="VendorMachineTest.Domain\Commands\Machine\MachineCommand.cs" line-rate="0.4285" branch-rate="1" complexity="7">
@@ -1779,7 +1835,7 @@
             </method>
             <method name="get_ProductId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="3" branch="False" />
+                <line number="12" hits="4" branch="False" />
               </lines>
             </method>
             <method name="get_ProductPrice" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -1811,7 +1867,7 @@
           </methods>
           <lines>
             <line number="11" hits="3" branch="False" />
-            <line number="12" hits="3" branch="False" />
+            <line number="12" hits="4" branch="False" />
             <line number="13" hits="3" branch="False" />
             <line number="14" hits="2" branch="False" />
             <line number="15" hits="2" branch="False" />

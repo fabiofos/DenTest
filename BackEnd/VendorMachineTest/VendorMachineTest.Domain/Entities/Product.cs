@@ -9,5 +9,7 @@ namespace VendorMachineTest.Domain.Entities
         public string Description { get; set; }
         public decimal Price { get; set; }
         public DateTime CreatedOn { get; set; }
+        public virtual ProductStock ProductStock { get; set; }
+        public int? ProductStockId { get; set; }
     }
 }

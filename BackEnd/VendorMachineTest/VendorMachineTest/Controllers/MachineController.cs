@@ -55,10 +55,26 @@ namespace VendorMachineTest.Controllers
         {
 
             var machineSlots = await _unitOfWork.Repository<MachineSlots>()
-                .GetBy(mn => mn.MachineId == machineId, inc => inc.Product);
+                .GetBy(mn => mn.MachineId == machineId, inc => inc.Product, inc => inc.Product.ProductStock);
 
             List<MachineSlotsViewModel> resp = _mapper.Map<List<MachineSlotsViewModel>>(machineSlots.ToList());
-           
+
+            return Json(resp);
+        }
+
+        [HttpGet]
+        [SwaggerResponse((200), Type = typeof(List<SalesViewModel>))]
+        [SwaggerResponse(204)]
+        [SwaggerResponse(400)]
+        [SwaggerResponse(401)]
+        public async Task<JsonResult> GetSales()
+        {
+
+            var sales = await _unitOfWork.Repository<Sales>()
+                .GetAll();
+
+            List<SalesViewModel> resp = _mapper.Map<List<SalesViewModel>>(sales.ToList().OrderByDescending(dt => dt.CreatedOn));
+
             return Json(resp);
         }
 

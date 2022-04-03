@@ -13,15 +13,21 @@ namespace VendorMachineTest.Domain.Commands
                           IRequestHandler<UpdateMachineCommand, Result>
     {
         private readonly IMediator _mediator;
-        private readonly ISalesRepository _saleRepositoryRepository;
+        private readonly ISalesRepository _saleRepository;
+        private readonly IProductRepository _productRepository;
+        private readonly IProductStockRepository _productStockRepository;
         private readonly IMachineRepository _machineRepository;
         public Handler(IMediator mediator,
                        ISalesRepository saleRepositoryRepository,
-                       IMachineRepository machineRepository)
+                       IMachineRepository machineRepository,
+                       IProductRepository productRepository,
+                       IProductStockRepository productStockRepository)
         {
             _mediator = mediator;
             _machineRepository = machineRepository;
-            _saleRepositoryRepository = saleRepositoryRepository;
+            _saleRepository = saleRepositoryRepository;
+            _productRepository = productRepository;
+            _productStockRepository = productStockRepository;
         }
 
         private IEnumerable<string> GetSalesErrors(CreateSaleCommand request) =>
@@ -35,7 +41,7 @@ namespace VendorMachineTest.Domain.Commands
             var result = new Result();
 
             if (request.IsValid())
-                if (await _saleRepositoryRepository.GetById(request.Id) == null)
+                if (await _saleRepository.GetById(request.Id) == null)
                 {
                     var sale = new Entities.Sales
                     {
@@ -44,7 +50,17 @@ namespace VendorMachineTest.Domain.Commands
                         ProductPrice = request.ProductPrice,
                         ProductId = request.ProductId
                     };
-                    await _saleRepositoryRepository.Add(sale);
+                    await _saleRepository.Add(sale);
+
+                    var productStockContent = await _productRepository.GetBy(pid => pid.Id == request.ProductId, inc => inc.ProductStock);
+
+                    var productStock = productStockContent.FirstOrDefault();
+
+                    if (productStock.ProductStock != null)
+                    {
+                        productStock.ProductStock.Quantity -= 1;
+                        await _productStockRepository.Update(productStock.ProductStock);
+                    }
                 }
                 else
                 {

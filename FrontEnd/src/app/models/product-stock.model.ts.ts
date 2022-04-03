@@ -1,6 +1,6 @@
 export interface ProductStock {  
     id: number,  
-    quantidade: number,  
+    quantity: number,  
     productId: number,  
     createdOn: string
 }   

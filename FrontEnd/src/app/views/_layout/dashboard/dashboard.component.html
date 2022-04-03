@@ -2,7 +2,7 @@
     <div class="card">
         <div class="card-header card-header-primary card-header-icon d-flex justify-content-between">
             <div>
-                <span>Vendor Machine</span>
+                <span>Vendor Machine - Total Money on Machine : {{totalMoney | number : '1.2-2'}} EUR</span>
             </div>
             <div>
                 <span class="pr-3">Language <strong>{{machineData ? machineData.machineLanguage.language : ''}}</strong></span>
@@ -15,7 +15,12 @@
                     <div class="col-md-10">
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <input type="text" class="text-box-style" formControlName="display">
+                                <input type="text" [readonly]="true" class="text-box-style" formControlName="display">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <span class="text-success">{{secondaryMessage}}</span>
                             </div>
                         </div>
                         <div class="row">
@@ -25,11 +30,13 @@
                                         {{slot.product ? slot.product.name : 'Slot Empty'}}
                                     </div>
                                     <div class="card-body">
-                                        <p> Price: {{slot.product ? slot.product.price : 'not available'}}</p>
-                                        <p *ngIf="slot.product"> Remaining Money: ToDo</p>
-                                        <p *ngIf="slot.product"> Stock: ToDo</p>
-                                        <p *ngIf="slot.product" class="text-right">
-                                            <input type="checkbox" (change)="SetProduct(slot.product)">
+                                        <p> Price: <strong>{{slot.product ? slot.product.price : 'not available'}}</strong></p>
+                                        <p *ngIf="slot.product"> Remaining Money: <strong>{{slot.product && slot.product.remainingAmount != undefined ? slot.product.remainingAmount : slot.product.price }}</strong></p>
+                                        <p *ngIf="slot.product"> Stock: <strong>{{slot.product.productStock && slot.product.productStock.quantity  ? slot.product.productStock.quantity : 'Sold Out'}}</strong></p>
+                                        <p *ngIf="slot.product" [ngClass]="slot.product.productStock && slot.product.productStock.quantity && slot.product.productStock.quantity <= 0 ? 'text-right text-danger' : 'text-right text-success'">
+                                            <input type="checkbox" 
+                                            [disabled]="DisableSelection(slot)"
+                                            (change)="SetProduct(slot.product)">
                                                 <span class="pl-1">Choose Product</span>
                                         </p>
                                     </div>
@@ -45,38 +52,38 @@
                         </div>
                         <div class="row pt-2">
                             <div class="col-md-12 text-center">
-                                <button type="button" class="btn btn-outline-primary coin-style">0.05 Cents</button>
+                                <button type="button" class="btn btn-outline-primary coin-style" (click)="AddCoin(0.05)">0.05 Cents</button>
                             </div>
                         </div>
                         <div class="row pt-2">
                             <div class="col-md-12 text-center">
-                                <button type="button" class="btn btn-outline-primary coin-style">0.10 Cents</button>
+                                <button type="button" class="btn btn-outline-primary coin-style" (click)="AddCoin(0.10)">0.10 Cents</button>
                             </div>
                         </div>
                         <div class="row pt-2">
                             <div class="col-md-12 text-center">
-                                <button type="button" class="btn btn-outline-primary coin-style">0.20 Cents</button>
+                                <button type="button" class="btn btn-outline-primary coin-style" (click)="AddCoin(0.20)">0.20 Cents</button>
                             </div>
                         </div>
                         <div class="row pt-2">
                             <div class="col-md-12 text-center">
-                                <button type="button" class="btn btn-outline-primary coin-style">0.50 Cents</button>
+                                <button type="button" class="btn btn-outline-primary coin-style" (click)="AddCoin(0.50)">0.50 Cents</button>
                             </div>
                         </div>
                         <div class="row pt-2">
                             <div class="col-md-12 text-center">
-                                <button type="button" class="btn btn-outline-primary coin-style">1.00 Euro</button>
+                                <button type="button" class="btn btn-outline-primary coin-style" (click)="AddCoin(1.00)">1.00 Euro</button>
                             </div>
                         </div>
                         <div class="row pt-2">
                             <div class="col-md-12 text-center">
-                                <button type="button" class="btn btn-outline-primary coin-style">2.00 Euros</button>
+                                <button type="button" class="btn btn-outline-primary coin-style" (click)="AddCoin(2.00)">2.00 Euros</button>
                             </div>
                         </div>
     
                         <div class="row pt-4">
                             <div class="col-md-12">
-                                <button type="button" class="btn btn-primary button-size">
+                                <button type="button" class="btn btn-primary button-size" (click)="CreateSale()" [disabled]="!canBuy">
                                     <fa-icon [icon]="faEuroSign"></fa-icon>
                                     Buy
                                 </button>
@@ -84,9 +91,17 @@
                         </div>
                         <div class="row pt-2">
                             <div class="col-md-12">
-                                <button type="button" class="btn btn-warning button-size">
+                                <button type="button" class="btn btn-warning button-size" (click)="ResetBalance()" [disabled]="!canReturnCoins">
                                     <fa-icon [icon]="faUndo"></fa-icon>
                                     Return Coins
+                                </button>
+                            </div>
+                        </div>
+                        <div class="row pt-2">
+                            <div class="col-md-12">
+                                <button type="button" class="btn btn-secondary button-size">
+                                    <fa-icon [icon]="faInfo"></fa-icon>
+                                    Call Help
                                 </button>
                             </div>
                         </div>
@@ -96,8 +111,8 @@
         </div>
 
         <div class="card-footer text-muted">
-            <div class="row">
-                <span> Create here the last machine sales </span>
+            <div class="row" *ngFor="let sale of sales">
+                <span> Last Sale at {{sale.createdOn | date: 'dd/MM/yyyy HH:mm'}} - Value : {{sale.productPrice | number : '1.2-2'}} EUR</span>
             </div>
         </div>
     </div>
